@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomeScreen from './screens/HomeScreen';
-import MenuView from './screens/MenuView';
+import ProductScreen from './screens/ProductScreen';
 
 import { Layout } from 'antd';
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -22,7 +22,7 @@ function App() {
         </AntHeader>
         <AntContent>
           <Route path="/" exact={true} component={HomeScreen} />
-          <Route path="/menus/:id" component={MenuView} />
+          <Route path="/product/:id" component={ProductScreen} />
           <Route path="/signin" component={SigninScreen} />
           <Route path="/register" component={RegisterScreen} />
         </AntContent>
