@@ -1,1 +1,1 @@
-Hello 
+This is front end for Vegafood project
